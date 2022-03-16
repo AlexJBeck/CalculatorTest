@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
 
-    working_directory: ~/github.com/AlexJBeck/CalculatorTest/blob/master
+    working_directory: ~/project
 
     docker:
       - image: circleci/openjdk:8-jdk-browsers
